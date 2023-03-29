@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+def test():
+    var = True
+
 
 def pytest_itemcollected(item):
     par = item.parent.obj
